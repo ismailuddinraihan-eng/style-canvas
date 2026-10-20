@@ -723,3 +723,54 @@ body {
 .cart-notification.show {
     transform: translateX(-50%) translateY(0);
 }
+/* Header & Logo styling */
+.logo-container {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.developer-name {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 500;
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+  header {
+    padding: 10px 15px;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .logo-container {
+    justify-content: center;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .developer-name {
+    font-size: 0.8rem;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .hero-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 10px;
+  }
+}
