@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Canvas | Men's Fashion & Lifestyle</title>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-text">Style</span><span class="logo-highlight">Canvas</span>
+            <span class="tagline">MEN'S COLLECTION</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#shirts">Shirts</a>
+            <a href="#shoes">Shoes</a>
+            <a href="#accessories">Accessories</a>
+        </nav>
+        <div class="auth-buttons">
+            <button class="btn btn-cart" id="cartBtn"><i class="fa-solid fa-cart-shopping"></i> Cart <span id="cartCount">0</span></button>
+            <button class="btn btn-login" id="openLoginBtn"><i class="fa-regular fa-user"></i> Login</button>
+        </div>
+    </header>
+
+    <!-- Main Hero Section -->
+    <main class="hero-container">
+        <div class="hero-card">
+            <!-- Left Content Area -->
+            <div class="hero-left">
+                <span class="badge">NEW MEN'S ARRIVALS 2026</span>
+                <h1>ELEVATE YOUR <br><span class="hero-title-bold">DAILY STYLE</span></h1>
+                <p class="description">
+                    Premium quality shirts, modern sneakers, formal shoes, and stylish accessories designed specifically for men.
+                </p>
+
+                <!-- Search / Offer Box -->
+                <div class="email-box">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" id="searchInput" placeholder="Search shirts, shoes, watches...">
+                    <button class="btn btn-primary" id="searchBtn">Search</button>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="btn btn-primary">Shop Collection</button>
+                    <button class="btn btn-outline">Explore Deals</button>
+                </div>
+            </div>
+
+            <!-- Right Visual Banner Area -->
+            <div class="hero-right">
+                <div class="hero-content-box">
+                    <i class="fa-solid fa-shirt hero-icon"></i>
+                    <h2>Men's Fashion Hub</h2>
+                    <p>Upgrade your wardrobe with trendy outfits & footwear.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category Showcase Cards -->
+        <h2 class="section-title">Popular Categories</h2>
+        <div class="bottom-cards">
+            <div class="promo-card">
+                <h2>FLAT 20% OFF</h2>
+                <p>Use Code: <strong>MENS20</strong></p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-solid fa-shirt"></i>
+                <h3>Casual & Formal Shirts</h3>
+                <p>Cotton, Printed & Premium Shirts</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-solid fa-shoe-prints"></i>
+                <h3>Shoes & Sneakers</h3>
+                <p>Loafers, Boots & Sports Shoes</p>
+            </div>
+            <div class="feature-card highlighted-card">
+                <i class="fa-solid fa-glasses"></i>
+                <h3>Accessories</h3>
+                <p>Watches, Belts & Sunglasses</p>
+            </div>
+        </div>
+
+        <!-- Featured Products Section -->
+        <h2 class="section-title">Featured Men's Collection</h2>
+      <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-tag">Best Seller</div>
+                <div class="product-icon-box"><i class="fa-solid fa-shirt"></i></div>
+                <h3>Slim Fit Oxford Shirt</h3>
+                <p class="price">৳ 1,490</p>
+                <button class="btn btn-primary btn-sm add-to-cart-btn" data-name="Slim Fit Oxford Shirt">Add to Cart</button>
+            </div>
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-tag">New</div>
+                <div class="product-icon-box"><i class="fa-solid fa-shoe-prints"></i></div>
+                <h3>Leather Casual Loafers</h3>
+                <p class="price">৳ 2,850</p>
+                <button class="btn btn-primary btn-sm add-to-cart-btn" data-name="Leather Casual Loafers">Add to Cart</button>
+            </div>
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-icon-box"><i class="fa-solid fa-clock"></i></div>
+                <h3>Minimalist Black Watch</h3>
+                <p class="price">৳ 1,990</p>
+                <button class="btn btn-primary btn-sm add-to-cart-btn" data-name="Minimalist Black Watch">Add to Cart</button>
+            </div>
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-icon-box"><i class="fa-solid fa-glasses"></i></div>
+                <h3>Classic Polarized Sunglasses</h3>
+                <p class="price">৳ 1,200</p>
+                <button class="btn btn-primary btn-sm add-to-cart-btn" data-name="Classic Polarized Sunglasses">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+    <!-- SEO Brand Info Section -->
+        <section class="info-section">
+            <h2>Men’s Dress Shoes & Formal Apparel for Every Occasion</h2>
+            <p>
+                Style Canvas’s collection of men’s fashion has everything you need, no matter the occasion. From sharp <strong>Oxfords</strong> and Derby shoes for the boardroom to easy slip-on <strong>Loafers</strong> for a smart casual day, this lineup covers the office, weddings, dinner parties, and every dressed-up moment in between. Pair them with our premium cotton shirts for an effortless, put-together look.
+            </p>
+
+            <h2>Oxford, Loafers & Shirts: Style Canvas Men's Fashion Explained</h2>
+            <p>
+                Not sure which style is right for you? Oxfords are the most formal lace-up option, perfect for sharp suits and formal events. <strong>Loafers</strong> skip the laces entirely, making them the easy choice when you want a polished look without extra fuss. Combined with our tailored casual and formal shirts, you are covered for the office, special occasions, and everything in between.
+            </p>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <button class="faq-question">
+                    What men’s dress shoe styles does Style Canvas carry?
+                    <i class="fa-solid fa-chevron-down faq-icon"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>We carry a wide variety of men’s footwear including Oxford shoes, Derby shoes, casual Loafers, Leather Sneakers, and Chelsea boots tailored for every formal and casual event.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    How do I choose the right size for shirts and footwear?
+                    <i class="fa-solid fa-chevron-down faq-icon"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>You can refer to our detailed Size Chart link in the footer section. We offer precise chest measurements for shirts and EU/UK sizes for footwear.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    What is the estimated delivery time within Bangladesh?
+                    <i class="fa-solid fa-chevron-down faq-icon"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Inside Dhaka delivery takes 24-48 hours. Outside Dhaka, standard shipping takes 2-4 business days.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- SEO Category Links Grid -->
+    <section class="seo-category-links">
+        <div class="links-container">
+            <div class="link-col">
+                <a href="#">Men's New Arrivals</a>
+                <a href="#">Men's Loafers</a>
+                <a href="#">Men's Black Shoes</a>
+                <a href="#">Men's Shirts</a>
+            </div>
+            <div class="link-col">
+                <a href="#">Men's Best Sellers</a>
+                <a href="#">Men's Sneakers</a>
+                <a href="#">Men's Brown Shoes</a>
+                <a href="#">Men's Bags & Wallets</a>
+            </div>
+            <div class="link-col">
+                <a href="#">Men's Sale</a>
+                <a href="#">Men's Boots</a>
+                <a href="#">Men's White Shoes</a>
+                <a href="#">Men's Accessories</a>
+            </div>
+            <div class="link-col">
+                <a href="#">Men's Footwear</a>
+                <a href="#">Men's Sandals</a>
+                <a href="#">Men's Beige Shoes</a>
+                <a href="#">Men's Belts</a>
+            </div>
+            <div class="link-col">
+                <a href="#">Men's Oxford Shoes</a>
+                <a href="#">Men's Chelsea Boots</a>
+                <a href="#">Men's Blue Shoes</a>
+                <a href="#">Men's Casual Wear</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Dark Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <!-- Country & Currency -->
+            <div class="footer-col">
+                <h4>Country & Language</h4>
+                <div class="country-picker">
+                    <span>🇧🇩 BDT (৳)</span>
+                </div>
+                <a href="#" class="footer-sublink">See other countries</a>
+            </div>
+
+            <!-- Customer Service -->
+            <div class="footer-col">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Track My Order</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="#">Size Chart</a></li>
+                </ul>
+            </div>
+
+            <!-- Company -->
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Stores</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                </ul>
+            </div>
+
+            <!-- Legal -->
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Terms Of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Preferences</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter Signup -->
+            <div class="footer-col newsletter-col">
+                <h4>Sign up for our newsletter and unlock 15% off your next purchase!</h4>
+                <div class="newsletter-box">
+                    <input type="email" placeholder="Enter your email...">
+                    <button class="btn btn-newsletter">SIGN UP</button>
+                </div>
+                <!-- Social Links -->
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fixed Floating Action Buttons (Scroll to Top & Chat) -->
+    <div class="floating-widgets">
+        <button id="scrollTopBtn" class="float-btn"><i class="fa-solid fa-chevron-up"></i></button>
+        <button id="chatWidgetBtn" class="float-btn float-chat"><i class="fa-solid fa-comments"></i></button>
+    </div>
+
+    <!-- Modal Form for Login -->
+    <div class="modal-overlay" id="loginModal">
+        <div class="modal-card">
+            <button class="close-btn" id="closeModalBtn">&times;</button>
+            <h2>Men's Style Club</h2>
+            <p>Sign in to access exclusive offers and orders</p>
+            
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email Address</label>
+                    <input type="email" id="loginEmail" placeholder="yourname@gmail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" placeholder="••••••••" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+            </form>
+            <p id="loginMessage" class="login-message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
